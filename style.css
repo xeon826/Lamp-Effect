@@ -1,14 +1,36 @@
-.box {
-  background-color:green;
-  width:50vw;
-  position:relative;
-  left:25vw;
-  top:25vh;
-  height:50vh;
+.greenDiv {
+  background-color: green;
+  width: 50vw;
+  position: relative;
+  left: 25vw;
+  top: 25vh;
+  height: 50vh;
   overflow: visible;
   box-shadow: 5px 10px;
-  transition:.1s;
 }
+
+.anotherbox {
+  background-color: green;
+  width: 50vw;
+  position: absolute;
+  left: 5vw;
+  top: 5vh;
+  height: 50vh;
+  overflow: visible;
+  box-shadow: 5px 10px;
+}
+
+.yetanotherbox {
+  background-color: green;
+  width: 50vw;
+  position: absolute;
+  left: 50vw;
+  top: 50vh;
+  height: 50vh;
+  overflow: visible;
+  box-shadow: 5px 10px;
+}
+
 /* .box::before{
   z-index:-1;
   box-shadow: 0 0 10px black;
@@ -19,10 +41,11 @@
   left: attr(data-content);
   height:50vh;
 } */
+
 .dot {
-  background-color:red;
-  position:fixed;
-  z-index:5;
-  width:5px;
-  height:5px;
+  background-color: red;
+  position: fixed;
+  z-index: 5;
+  width: 5px;
+  height: 5px;
 }
